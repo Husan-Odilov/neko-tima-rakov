@@ -1,0 +1,15 @@
+@font-face {
+  font-family: rob4;
+  src: url("./roboto/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: rob5;
+  src: url("./roboto/Roboto-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: rob7;
+  src: url("./roboto/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
