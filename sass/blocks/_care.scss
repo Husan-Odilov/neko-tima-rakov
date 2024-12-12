@@ -1,0 +1,84 @@
+.care {
+    padding: 0 100px;
+
+}
+
+.care__wrapper {
+    display: flex;
+    background-color: #161616;
+    border-radius: 20px;
+    gap: 50px;
+    max-width: 90%;
+    
+}
+.containerr{
+    width: 1480px;
+    margin: 0 auto;
+}
+.care__card-red {
+    background-color: #C75E90;
+    padding: 60px 40px;
+    border-radius: 20px;
+}
+.care__intro {
+    font-family: Poppins;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.36em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.care__main-rext {
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+.care__info {
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+
+.btn--active {
+    background-color: #8E345F;
+    padding: 10px 40px;
+
+}
+
+
+.care__card {
+}
+.care__card-title {
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+.care__card-info {
+    color: white;   
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}

@@ -68,3 +68,87 @@ p{
   justify-content: center;
   text-align: center;
 }
+.pricing-table {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: #292929;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.card ul li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card ul li::before {
+  color: #ff89c0;
+  margin-right: 10px;
+}
+
+.card button {
+  background-color: #ff89c0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #e678ab;
+}
+
+.ducal {
+  border: 2px solid #ff89c0;
+}
+
+.imperial {
+  background-color: #a03685;
+  border: 2px solid #e5e5e5;
+}
+
+.royal {
+  border: 2px solid #ff89c0;
+}
+
+.crown {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+}
+
+.imperial .crown {
+  color: white;
+}
+
+.ducal .crown, .royal .crown {
+  color: #ff89c0;
+}

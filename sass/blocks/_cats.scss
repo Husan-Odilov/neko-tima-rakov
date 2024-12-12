@@ -1,0 +1,37 @@
+.cats {
+    padding-bottom: 50px;
+}
+
+.cats__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.cats__card {
+    position: relative;
+    
+}
+
+.cats__card::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+background-image: url(../../img/PetHouse-Icon.png);
+background-size: cover;
+    bottom: -30px;
+    right: 18px;
+    z-index: 1;
+}
+
+.cats__card::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    background-color: #C75E90;
+    bottom: -30px;
+    right: 18px;
+    
+}
