@@ -1,49 +1,48 @@
 .section04{
-background-color: black;
-display: flex;
-justify-content: space-around;
-flex-direction: row;
-align-items: center;
-gap: 10px;
-padding: 50px;
-}
-.section04__pictures{
-
-}
-.section04__pic{
-width: 576px;
-height: 571px;
-}
-
-.section04__info{
-
-}
-.section04__text{
-color: #FFFFFF;
-}
-.section04__mini-text{
-color: #696969;
-}
-.section04__mini-white{
-color: #FFFFFF;
-}
-.section04__arrow-text{
-display: flex;
-flex-direction: row;
-align-items: center;
-gap: 10px;
-}
-.section04__arrow{
-color: #FFFFFF;
-background-color: #C75E90;
-width: 36px;
-height: 36px;
-border-radius: 50%;
-}
-.section04__line{
-color: #696969;
-}
-
+    background-color: #1D1D1D6;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+    }
+    .section04__pictures{
+    
+    }
+    .section04__pic{
+    width: 576px;
+    height: 571px;
+    }
+    
+    .section04__info{
+    
+    }
+    .section04__text{
+    color: #FFFFFF;
+    }
+    .section04__mini-text{
+    color: #696969;
+    }
+    .section04__mini-white{
+    color: #FFFFFF;
+    }
+    .section04__arrow-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    }
+    .section04__arrow{
+    color: #FFFFFF;
+    background-color: #C75E90;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    }
+    .section04__line{
+    color: #696969;
+    }
 
 
 .lastsection{
@@ -70,6 +69,7 @@ text-align: center;
 
 .user__basic-info{
 padding-top: 100px;
+margin-left: 200px;
 }
 .user__name-label{
     padding: 20px;
@@ -117,11 +117,12 @@ padding-top: 100px;
     justify-content: space-between;
 }
 .user__main-label{
+    margin-left: 200px;
     padding: 20px;
     border: 1px solid white;
     background-color: transparent;
     border-radius: 50px;
-    width: 1150px;
+    width: 1110px;
     display: flex;
     flex-direction: column;
     margin-top: 30px;
@@ -146,4 +147,5 @@ border-radius: 50%;
     border: none;
     margin-top: 30px;
     text-align: center;
+    margin-left: 700px;
 }
