@@ -1,0 +1,149 @@
+.section04{
+background-color: black;
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+padding: 50px;
+}
+.section04__pictures{
+
+}
+.section04__pic{
+width: 576px;
+height: 571px;
+}
+
+.section04__info{
+
+}
+.section04__text{
+color: #FFFFFF;
+}
+.section04__mini-text{
+color: #696969;
+}
+.section04__mini-white{
+color: #FFFFFF;
+}
+.section04__arrow-text{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+}
+.section04__arrow{
+color: #FFFFFF;
+background-color: #C75E90;
+width: 36px;
+height: 36px;
+border-radius: 50%;
+}
+.section04__line{
+color: #696969;
+}
+
+
+
+.lastsection{
+background-color: black;
+padding: 50px;
+margin-top: 100px;
+border-radius: 30px;
+}
+.lastsection__info{
+text-align: center;
+}
+.lastsection__text{
+    text-align: center;
+    color: #FFFFFF;
+}
+.lastsection__mini-text{
+    text-align: center;
+    color: #696969;
+}
+.lastsection__mini-white{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.user__basic-info{
+padding-top: 100px;
+}
+.user__name-label{
+    padding: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50px;
+    width: 535px;
+    display: flex;
+    flex-direction: column;
+}
+.user-assistant{
+    color: #696969;
+}
+.user__name-input{
+    background-color: black;
+    color: white;
+}
+.user__email-label{
+    padding: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50px;
+    width: 535px;
+    display: flex;
+    flex-direction: column;
+}
+.user__email-input{
+    background-color: black;
+    color: white;
+}
+.user__basic-info-end{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+}
+.user__basic-info-start{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+}
+.imgs__input{
+    display: flex;
+    justify-content: space-between;
+}
+.user__main-label{
+    padding: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50px;
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.user__main-input{
+    background-color: black;
+    color: white;
+    width: 700px;
+}
+.arrow__span-assistant{
+    color: #FFFFFF;
+background-color: #C75E90;
+width: 36px;
+height: 36px;
+border-radius: 50%;
+}
+.btn{
+    color: #FFFFFF;
+    background-color: #C75E90;
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 30px;
+    text-align: center;
+}
