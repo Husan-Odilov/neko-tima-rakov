@@ -1,0 +1,57 @@
+.wrapper_top{
+margin: 0 auto;
+}
+.celebrate__wrapper{
+    width: 90%;
+    background-color: aqua;
+    margin: 0 auto;
+}
+.first_text{
+    text-align: center;
+    color: #696969;
+}
+.top_title{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.second_text{
+    text-align: center;
+    color: white;
+}
+.celebrate_item{
+    display: flex;
+    justify-content: space-around;
+}
+.celebrate_items{
+    width: 424px;
+    height: 453px;
+    background-color: gold;
+    border-radius: 24px;
+    border: none;
+}
+.celebrate_items_img{
+    padding-top: 25px;
+    padding-left: 30px;
+}
+.main_info{
+    padding-top: 25px;
+    padding-left: 30px;
+    width: 337px;
+    height: 168px;
+    color: white;
+}
+.avatar{
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.people_name{
+    color: white;
+    padding-top: 50px;
+}
+.wrapper_avatar{
+    display: flex;
+    
+    gap: 25px;
+}
